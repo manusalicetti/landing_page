@@ -9,19 +9,24 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="header__logo">Header Logo</a>
-      <ul class="menu">
-        <li class="menu__item"><a href="#" class="menu__link">header link one</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">header link two</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">header link three</a></li>
-      </ul>
+      <div class="header__container">
+        <a href="#" class="header__logo">Header Logo</a>
+        <ul class="menu">
+          <li class="menu__item"><a href="#" class="menu__link">header link one</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">header link two</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">header link three</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="home">
         <div class="home__container">
           <div class="home__text-container">
             <h1 class="home__title">This website is awesome</h1>
-            <p>This website has some subtext that goes here under main title. It's smaller font and the color is lower contrast</p>
+            <p>
+              This website has some subtext that goes here under main title. It's smaller font and the color is lower <br />
+              contrast
+            </p>
             <button class="home__singup">Sing up</button>
           </div>
           <img class="home__image" src="/images/home.jpg" alt="Smiling girl picture" />
@@ -59,13 +64,13 @@
       </section>
       <section class="singup">
         <div class="singup__container">
-          <div class="singup__bluecontainer">
-            <div class="singup__text-container">
-              <p>Call to action! It's time!</p>
-              <p>Sing up for our product by clicking that button right over there!</p>
-            </div>
-            <button>Sing up</button>
+          <!-- <div class="singup__bluecontainer"> -->
+          <div class="singup__text-container">
+            <p class="singup__first-text">Call to action! It's time!</p>
+            <p class="singup__second-text">Sing up for our product by clicking that button right over there!</p>
           </div>
+          <button>Sing up</button>
+          <!-- </div> -->
         </div>
       </section>
     </main>
